@@ -4,7 +4,7 @@ function Form(props) {
     function handleChange(e) {
        setName(e.target.value)
     }
-    const [name,setName] = useState('use Hooks !')
+    const [name,setName] = useState('Learn React Js')
     function handleSubmit(e) {
         e.preventDefault()
         props.addTask(name)
